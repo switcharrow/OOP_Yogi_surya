@@ -27,3 +27,4 @@ echo "<br>Total Nilai: ". $ele->totalNilai($ele->random) . "<br>" ;
 echo "Rata-rata: ". $ele->rataanNilai($ele->random). "<br>";
 echo "Maximum: ". $ele->maximumNilai($ele->random). "<br>" ;
 echo "Minimum: ". $ele->minimumNilai($ele->random). "<br>" ;
+//
