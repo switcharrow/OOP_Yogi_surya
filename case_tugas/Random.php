@@ -23,7 +23,7 @@ class Elemen extends Perhitungan
 }
 $ele = new Elemen();
 $ele->random();
-echo "<br>Total Nilai: ". $ele->totalNilai($ele->random) . "<br>" ;
+echo "Total Nilai: ". $ele->totalNilai($ele->random) . "<br>" ;
 echo "Rata-rata: ". $ele->rataanNilai($ele->random). "<br>";
 echo "Maximum: ". $ele->maximumNilai($ele->random). "<br>" ;
 echo "Minimum: ". $ele->minimumNilai($ele->random). "<br>" ;
