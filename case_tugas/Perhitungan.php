@@ -18,7 +18,7 @@
             if (!is_array($a)) {
                 return $a;
             }
-            return $this->totalNilai($a) / 50;
+            return $this->totalNilai($a) / count($a);
         }
         
         public function maximumNilai($a=1)
