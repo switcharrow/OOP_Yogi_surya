@@ -4,9 +4,11 @@ class Elemen extends Perhitungan
 {
     public $a = array( );
     public $random;
+    protected $data;
 
-    public function __construct() {
-        for ($i=0; $i <= 100; $i++) { 
+    public function __construct($data) {
+        $this->data =  $data;
+        for ($i=0; $i <= $data; $i++) { 
             $this->a[$i] = $i;
         }
        
@@ -21,7 +23,7 @@ class Elemen extends Perhitungan
         
     } 
 }
-$ele = new Elemen();
+$ele = new Elemen(100);
 $ele->random();
 echo "Total Nilai: ". $ele->totalNilai($ele->random) . "<br>" ;
 echo "Rata-rata: ". $ele->rataanNilai($ele->random). "<br>";
