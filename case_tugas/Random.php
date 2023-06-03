@@ -15,7 +15,7 @@ class Elemen extends Perhitungan
     }
     public function random()
     {
-        $this->random= array_rand($this->a,50);
+        $this->random = array_rand($this->a,50);
         foreach ($this->random as $key => $value) {
             echo "Elemen ke- " .$key." : ". $value. "<br>";
         }
